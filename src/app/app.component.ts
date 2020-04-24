@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-shopping-app';
+  selectedTab ="Recipe";//Shopping-List
+
+
+  onNavigate(selectedTab:string){
+    this.selectedTab=selectedTab;
+  }
+
+
 }
